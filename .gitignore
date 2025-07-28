@@ -1,0 +1,72 @@
+## Archivos de compilación y temporales
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+*.log
+
+## Archivos de usuario de Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sdf
+*.cache
+*.dbmdl
+*.VC.db
+.vscode/
+.vs/
+*.sln.ide
+
+## Paquetes NuGet y artefactos
+packages/
+*.nupkg
+artifacts/
+.nuget/
+*.snupkg
+
+## Archivos de bloqueo y restauración
+project.lock.json
+project.fragment.lock.json
+project.assets.json
+
+## Publicaciones y despliegues
+publish/
+*.Publish.xml
+
+## Archivos de configuración local y secretos
+appsettings.*.json
+secrets.json
+
+## Archivos de IIS Express
+*.vspscc
+*.vssscc
+*.pdb
+
+## Archivos de herramientas y extensiones
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+.idea/
+*.sln.iml
+
+## Resultados de pruebas y temporales
+TestResults/
+*.TestResults
+*.tmp
+*.bak
+*.swp
+*.scc
+
+## Archivos generados por dotnet watch
+**/Properties/launchSettings.json
+
+## Archivos de configuración de Rider
+.idea/
+*.sln.iml
+
+# Archivos de configuración de dependabot
+.dependabot/
+
+# Archivos de configuración de SonarQube
+.sonar/
